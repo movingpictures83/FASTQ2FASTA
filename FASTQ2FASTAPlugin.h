@@ -16,7 +16,8 @@ public:
 private: 
  std::string inputfile;
  std::string outputfile;
-
+ std::vector<std::string> fastqFiles;
+ std::string mode;
 };
 
 #endif
